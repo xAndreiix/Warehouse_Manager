@@ -47,12 +47,16 @@ The system also comes with a simple **graphical interface** (using PyQt6) that m
 
 - 📁 warehouse-management/
 - │
-- ├── products.py      # Defines Product base class + Food, Electronics, Clothing subclasses
-- ├── warehouse.py     # Core warehouse logic (inventory, reservations, buying, etc.)
-- ├── decorators.py    # Business logic decorator (manager-only actions restricted to 23:00–06:00)
-- ├── main.py          # Entry point – CLI + GUI menu
-- ├── requirements.txt # Python dependencies
-- └── README.md        # Project documentation
+- ├── products.py         # Defines Product base class + Food, Electronics, Clothing subclasses
+- ├── warehouse.py        # Core warehouse logic (inventory, reservations, buying, etc.)
+- ├── decorators.py       # Business logic decorator (manager-only actions restricted to 23:00–06:00)
+- ├── main.py             # Entry point – CLI + GUI menu
+- ├── test_warehouse.py
+- ├── test_decorators.py
+- ├── .gitignore file
+- ├── MIT License file
+- ├── requirements.txt    # Python dependencies
+- └── README.md           # Project documentation
 
 ---
 
@@ -63,7 +67,7 @@ The system also comes with a simple **graphical interface** (using PyQt6) that m
 - git clone https://github.com/xAndreiix/Warehouse-Manager.git
 cd warehouse-management
 
-2. (Optional but recommended) Create a virtual environment:)
+2. (Optional but recommended) Create a virtual environment:
 
 - python -m venv venv
 - source venv/bin/activate   # On Linux/Mac
