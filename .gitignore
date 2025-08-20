@@ -1,0 +1,40 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE / editor configs
+.vscode/
+.idea/
+*.swp
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs / temp files
+*.log
+*.tmp
+*.bak
+
+# PyInstaller
+*.spec
+
+# Qt / PyQt specific
+*.qrc
+*.pyc
+*.pyo
+
+reserved_products.pickle
+warehouse_products.pickle
