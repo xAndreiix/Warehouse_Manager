@@ -64,8 +64,8 @@ The system also comes with a simple **graphical interface** (using PyQt6) that m
 
 1. Clone this repository:
 
-- git clone https://github.com/xAndreiix/Warehouse-Manager.git
-cd warehouse-management
+- git clone https://github.com/xAndreiix/Warehouse_Manager.git
+cd warehouse_management
 
 2. (Optional but recommended) Create a virtual environment:
 
