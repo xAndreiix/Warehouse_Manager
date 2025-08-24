@@ -15,7 +15,7 @@ from warehouse import Warehouse
 from products import FoodProduct, ElectronicProduct, ClothingProduct, Product
 
 def is_manager_hours(now: Optional[datetime.datetime] = None) -> bool:
-    """ Operații de manager doar între 23:00 și 06:00. """
+    """ Manager operations only between 11PM and AM. """
     if now is None:
         now = datetime.datetime.now()
     t = now.time()
